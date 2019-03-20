@@ -13,6 +13,16 @@
 
 Follow the Google Cloud SDK [documentation](https://cloud.google.com/sdk/) to install and configure the `gcloud` command line utility.
 
+
+https://cloud.google.com/sdk/docs/quickstarts
+
+#### macOS
+https://cloud.google.com/sdk/docs/quickstart-macos
+#### Linux
+
+#### Win
+
+
 Verify the Google Cloud SDK version is 218.0.0 or higher:
 
 ```
