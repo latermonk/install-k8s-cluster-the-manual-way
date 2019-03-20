@@ -16,3 +16,11 @@ https://github.com/opsnull/follow-me-install-kubernetes-cluster
 ## markthink     
 CKA-Kubernetes 部署模板+CKA/CKAD 指南    
 https://github.com/markthink/cka-kubernetes
+
+
+##  常用手册
+### rootsong
+https://github.com/rootsongjc/kubernetes-handbook/blob/master/SUMMARY.md
+
+### feiskyer
+https://github.com/feiskyer/kubernetes-handbook/blob/master/SUMMARY.md
