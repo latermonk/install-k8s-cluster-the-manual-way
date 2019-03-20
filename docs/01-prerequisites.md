@@ -1,3 +1,8 @@
+# GCP - AWS compare
+https://cloud.google.com/free/docs/map-aws-google-cloud-platform
+
+![gcp-aws](images/gcp-aws.jpg)
+
 # Prerequisites
 
 
@@ -15,6 +20,8 @@ Follow the Google Cloud SDK [documentation](https://cloud.google.com/sdk/) to in
 
 #### First of all:
 https://cloud.google.com/sdk/docs/quickstarts
+
+
 
 
 #### macOS
