@@ -1,7 +1,9 @@
 # Prerequisites
 
 
-![tmux-screenshot](images/tmux-screenshot.png)
+
+![gcp](images/gcp.png)
+
 
 
 
