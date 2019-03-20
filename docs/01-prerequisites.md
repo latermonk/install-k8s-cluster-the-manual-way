@@ -7,7 +7,7 @@
 
 
 
-## GCP SDK INSTALL && INIT
+## GOOGLE CLOUD SHELL INSTALL && gcloud init
 
 ### Install the Google Cloud SDK
 
