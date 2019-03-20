@@ -8,9 +8,15 @@ https://github.com/kelseyhightower/kubernetes-the-hard-way
 
 ## kweisamx  KTHW-CN中文版
 https://github.com/kweisamx/Kubernetes-The-Hard-Way-ZH-tw
+
 ##  opsnull
 跟我一步一步安装集群    
 https://github.com/opsnull/follow-me-install-kubernetes-cluster
+
+## rootsong
+在CentOS上部署kubernetes集群
+https://jimmysong.io/kubernetes-handbook/practice/install-kubernetes-on-centos.html
+
 
 
 ## markthink     
