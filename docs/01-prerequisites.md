@@ -1,6 +1,8 @@
 # Prerequisites
 
 
+
+
 ## GCP SDK INSTALL && 初始化
 
 ### Install the Google Cloud SDK
