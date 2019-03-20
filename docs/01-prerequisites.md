@@ -24,6 +24,12 @@ https://cloud.google.com/sdk/docs/quickstart-macos
 https://cloud.google.com/sdk/docs/quickstart-windows
 
 
+#### 打开交互模式
+
+```
+gcloud beta interactive
+```
+
 
 ####  Verify the Google Cloud SDK version is 218.0.0 or higher:
 
