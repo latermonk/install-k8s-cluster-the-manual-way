@@ -1,9 +1,11 @@
 # Prerequisites
 
 
+![tmux-screenshot](images/tmux-screenshot.png)
 
 
-## GCP SDK INSTALL && 初始化
+
+## GCP SDK INSTALL && init
 
 ### Install the Google Cloud SDK
 
