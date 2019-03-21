@@ -20,8 +20,8 @@ ssh-rsa [KEY_VALUE] [USERNAME]
 ```
 其中：
 
-KEY_VALUE 是 生成的公钥的值
-USERNAME  是需要使用的用户名
+KEY_VALUE 是 生成的公钥的值      
+USERNAME  是需要使用的用户名     
 
 ### XSHELL
 
@@ -31,6 +31,12 @@ USERNAME  是需要使用的用户名
 
 ## Upload pub key to server
 
+
+![shell-keygen002](images/shell-keygen002.png)
+
+
 ## XSHELL连接
 
+
+![shell-keygen003](images/shell-keygen003.png)
 
