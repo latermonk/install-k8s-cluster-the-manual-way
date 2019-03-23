@@ -1,5 +1,5 @@
 # install-k8s-cluster-the-manual-way
-
+https://github.com/latermonk/install-k8s-cluster-the-manual-way/blob/master/docs/README.md
 
 
 # 参考资料
