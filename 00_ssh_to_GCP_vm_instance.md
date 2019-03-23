@@ -1,3 +1,7 @@
+# install k8s cluster at gcp manual
+https://github.com/latermonk/install-k8s-cluster-the-manual-way/tree/master/docs
+
+
 # ssh
 
 https://cloud.google.com/compute/docs/instances/adding-removing-ssh-keys#locatesshkeys
