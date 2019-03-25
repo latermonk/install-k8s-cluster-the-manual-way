@@ -5,13 +5,6 @@ https://cloud.google.com/free/docs/map-aws-google-cloud-platform
 
 # Prerequisites
 
-
-
-![gcp](images/gcp.png)
-
-
-
-
 ## GOOGLE CLOUD SHELL INSTALL && gcloud init
 
 ### Install the Google Cloud SDK
