@@ -118,6 +118,8 @@ cfssl gencert \
 Results:
 
 ```
+ls -l
+
 admin-key.pem
 admin.pem
 ```
