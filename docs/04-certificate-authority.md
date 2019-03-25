@@ -1,7 +1,7 @@
-# CA认证补课
+# CA认证
 
 ## 参考:
-#公钥基础设施(PKI)/CFSSL证书生成工具的使用
+#公钥基础设施(PKI)/CFSSL证书生成工具的使用    
 https://blog.51cto.com/liuzhengwei521/2120535?utm_source=oschina-app
 
 # Provisioning a CA and Generating TLS Certificates
