@@ -44,4 +44,5 @@ USERNAME  是需要使用的用户名
 
 ![shell-keygen003](images/shell-keygen003.png)
 
-01-prerequisites.md
+
+[01-prerequisites.md](01-prerequisites.md)
