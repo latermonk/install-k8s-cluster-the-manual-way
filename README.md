@@ -1,4 +1,6 @@
 
+#  文档
+[Content  ... ](https://github.com/latermonk/install-k8s-cluster-the-manual-way/tree/master/docs)
 
 
 # 参考资料
