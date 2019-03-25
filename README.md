@@ -1,8 +1,10 @@
 
 #  文档
+
 [Content  ... ](https://github.com/latermonk/install-k8s-cluster-the-manual-way/tree/master/docs)
 
 
+![content](images/content.jpg)
 # 参考资料
 ## kelseyhightower   英文原版    
 https://github.com/kelseyhightower/kubernetes-the-hard-way
