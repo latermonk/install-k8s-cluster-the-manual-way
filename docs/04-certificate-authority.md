@@ -18,7 +18,7 @@ In this section you will provision a Certificate Authority that can be used to g
 Generate the CA configuration file, certificate, and private key:
 
 ```
-{
+# 01 CA配置文件
 
 cat > ca-config.json <<EOF
 {
@@ -36,6 +36,7 @@ cat > ca-config.json <<EOF
 }
 EOF
 
+# 02 CA证书签名请求文件
 cat > ca-csr.json <<EOF
 {
   "CN": "Kubernetes",
@@ -55,9 +56,16 @@ cat > ca-csr.json <<EOF
 }
 EOF
 
+# 03 生成CA证书和私钥
+
 cfssl gencert -initca ca-csr.json | cfssljson -bare ca
 
-}
+ls
+
+ca-key.pem
+ca.pem
+
+
 ```
 
 Results:
