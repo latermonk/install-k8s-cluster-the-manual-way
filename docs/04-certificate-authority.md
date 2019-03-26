@@ -25,7 +25,7 @@ In this lab you will provision a [PKI Infrastructure](https://en.wikipedia.org/w
 
 | A0 | B0 | C0 | D0 | E0 | F0 | G0 | H0 | I0 |
 |---|---|---|---|---|---|---|---|---|
-|  ca-config.json | ca.pem   | ca-key.pem | CA |
+|  CA | ca.pem   | ca-key.pem | ca-config.json |
 | Admin-client | admin.pem | admin-key.pem | 
 | Kubelet-client | worker-0.pem | worker-0-key.pem | 
 |  Controller Manager Client | kube-controller-manager.pem | kube-controller-manager-key.pem | 
