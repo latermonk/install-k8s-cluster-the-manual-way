@@ -45,7 +45,16 @@ cat > ca-config.json <<EOF
   }
 }
 EOF
+```
+Results:
 
+```
+ca-config.json
+
+```
+
+
+```
 # 02 CA证书签名请求文件
 cat > ca-csr.json <<EOF
 {
@@ -65,25 +74,35 @@ cat > ca-csr.json <<EOF
   ]
 }
 EOF
+```
+Results:
 
-# 03 生成CA证书和私钥
+```
+ca-csr.json
+```
+
+```
+# 03 生成CA证书和私钥【使用CA证书签名请求文件】
 
 cfssl gencert -initca ca-csr.json | cfssljson -bare ca
 
-ls
-
-ca-key.pem
-ca.pem
-
-
 ```
+
+![TLS_CERT03](images/TLS_CERT03.png)
 
 Results:
 
 ```
-ca-key.pem
+ca.csr    
+ca-key.pem  
 ca.pem
+
 ```
+
+
+
+
+
 
 ## Client and Server Certificates
 
