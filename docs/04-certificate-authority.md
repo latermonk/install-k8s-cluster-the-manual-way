@@ -1,8 +1,18 @@
 # CA认证
 
 ## 参考:
-#公钥基础设施(PKI)/CFSSL证书生成工具的使用    
+
+#如何构建私有公钥基础设施     
+https://infoq.cn/article/2015/06/CloudFlare-PKI-TLS?utm_source=news_about_CFSSL&utm_medium=link&utm_campaign=CFSSL
+
+#公钥基础设施(PKI)/CFSSL证书生成工具的使用        
 https://blog.51cto.com/liuzhengwei521/2120535?utm_source=oschina-app
+
+
+#kubernetes实践之六：CFSSL构建本地CA      
+http://blog.itpub.net/28624388/viewspace-2152064/
+
+
 
 # Provisioning a CA and Generating TLS Certificates
 
