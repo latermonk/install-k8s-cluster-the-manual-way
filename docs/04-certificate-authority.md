@@ -21,6 +21,23 @@ http://blog.itpub.net/28624388/viewspace-2152064/
 
 In this lab you will provision a [PKI Infrastructure](https://en.wikipedia.org/wiki/Public_key_infrastructure) using CloudFlare's PKI toolkit, [cfssl](https://github.com/cloudflare/cfssl), then use it to bootstrap a Certificate Authority, and generate TLS certificates for the following components: etcd, kube-apiserver, kube-controller-manager, kube-scheduler, kubelet, and kube-proxy.
 
+
+
+| A0 | B0 | C0 | D0 |
+|---|---|---|---|---|---|---|---|---|
+| CA | ca-config.json | ca.pem   | ca-key.pem | E1 | F1 | G1 | H1 | I1 |
+| Admin-client | admin.pem | admin-key.pem | D2 | E2 | F2 | G2 | H2 | I2 |
+| Kubelet-client | worker-0.pem | worker-0-key.pem | D3 | E3 | F3 | G3 | H3 | I3 |
+|  Controller Manager Client | kube-controller-manager.pem | kube-controller-manager-key.pem | D4 | E4 | F4 | G4 | H4 | I4 |
+| kube-proxy-client | kube-proxy.pem | kube-proxy-key.pem |
+| kube-scheduler | kube-scheduler.pem | kube-scheduler-key.pem |
+| kubernetes-api-server | kubernetes.pem | kubernetes-key.pem |
+| service-account | service-account.pem | service-account-key.pem |
+
+
+
+
+
 ## Certificate Authority
 
 In this section you will provision a Certificate Authority that can be used to generate additional TLS certificates.
@@ -92,8 +109,7 @@ cfssl gencert -initca ca-csr.json | cfssljson -bare ca
 
 Results:
 
-```
-ca.csr    
+```  
 ca-key.pem  
 ca.pem
 
