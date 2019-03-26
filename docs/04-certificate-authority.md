@@ -23,7 +23,7 @@ In this lab you will provision a [PKI Infrastructure](https://en.wikipedia.org/w
 
 
 
-| A0 | B0 | C0 | D0 |
+| A0 | B0 | C0 | D0 | E0 | F0 | G0 | H0 | I0 |
 |---|---|---|---|---|---|---|---|---|
 | CA | ca-config.json | ca.pem   | ca-key.pem | E1 | F1 | G1 | H1 | I1 |
 | Admin-client | admin.pem | admin-key.pem | D2 | E2 | F2 | G2 | H2 | I2 |
