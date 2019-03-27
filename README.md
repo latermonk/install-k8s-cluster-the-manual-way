@@ -1,6 +1,12 @@
 
 #  文档
 
+##  vagrant way
+https://github.com/kinvolk/kubernetes-the-hard-way-vagrant
+
+
+# Now
+
 [Content  ... ](https://github.com/latermonk/install-k8s-cluster-the-manual-way/tree/master/docs)
 
 
