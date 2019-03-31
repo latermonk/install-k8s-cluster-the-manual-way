@@ -1,0 +1,19 @@
+
+```
+#!/bin/bash
+
+set -euo pipefail
+
+readonly dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+
+pushd "${dir}/../"
+trap 'popd' EXIT
+
+rm -vfr tools/*
+
+rm -vf certificates/*pem
+rm -vf certificates/*csr
+
+rm -vf config/*kubeconfig
+
+```
