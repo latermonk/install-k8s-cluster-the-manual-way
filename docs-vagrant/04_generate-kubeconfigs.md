@@ -20,7 +20,7 @@ kubectl config set-cluster kubernetes-the-hard-way \
 
 ```
 kubectl config set-credentials kube-proxy \
-  --client-certificate="${dir}/../certificates/kube-proxy.pem" \
+  --client-certificate="../certificates/kube-proxy.pem" \
   --client-key="../certificates/kube-proxy-key.pem" \
   --embed-certs=true \
   --kubeconfig="../config/kube-proxy.kubeconfig"
