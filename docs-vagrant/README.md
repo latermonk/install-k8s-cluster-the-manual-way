@@ -2,9 +2,7 @@
 
 ## Docs
 
-[00_distclean](00-distclean)      
 
-[00_distclean](00-distclean)   
 [02_download](https://github.com/latermonk/install-k8s-cluster-the-manual-way/blob/master/docs-vagrant/01_download-tools.md)
 
 
