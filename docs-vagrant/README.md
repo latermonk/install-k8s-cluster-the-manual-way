@@ -4,9 +4,6 @@
 
 ## Setup  Manually
 
-
-### Multiple scripts
-
 Remove previously created certificates, tools kubeconfig files:
 
 ```
