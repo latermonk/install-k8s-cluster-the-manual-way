@@ -25,3 +25,16 @@ EOF
 done
 ```
 
+
+##  check the etcd cluster
+
+
+```
+vagrant ssh controller-0
+ETCDCTL_API=3 etcdctl member list
+
+6c500a9f4f9113de, started, controller-0, https://192.168.199.10:2380, https://192.168.199.10:2379
+e206d150eae73959, started, controller-2, https://192.168.199.12:2380, https://192.168.199.12:2379
+e7e775a3da74a469, started, controller-1, https://192.168.199.11:2380, https://192.168.199.11:2379
+```
+
