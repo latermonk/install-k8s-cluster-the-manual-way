@@ -1,5 +1,8 @@
 # Kubernetes The Hard Way (Vagrant)
 
+## Docs
+
+[00_distclean](00-distclean)
 
 
 ## Setup  Manually
