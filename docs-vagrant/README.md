@@ -1,28 +1,9 @@
 # Kubernetes The Hard Way (Vagrant)
 
-Vagrant configuration and scripts for a Kubernetes setup, the hard way.
 
-The setup follows https://github.com/kelseyhightower/kubernetes-the-hard-way
-with the following exceptions:
 
-* `cri-o` is used as a container runtime, not `cri-containerd`
-* The `pod-cidr` is `10.2${i}.0.0/16`, routes are provisioned from
-  `scripts/vagrant-setup-routes.bash` automatically
-* For `crio`, an explicit `--stream-address` must be set, as the address
-  of the default interface isn't routable (see e.g. [`config/worker-0-crio.service`](config/worker-0-crio.service))
-* `192.168.199.40` is the IP of the loadbalancer (haproxy) for HA controllers
+## Setup  Manually
 
-Please note that KTHW is a project to learn Kubernetes from bottom up
-and is not per se a guide to build clusters for production use!
-
-## Requirements Host
-
-* Vagrant (with VirtualBox)
-* Minimum of 7x 512MB of free RAM
-* `cfssl`, `cfssljson` and `kubectl` (`scripts/install-tools` can be
-  used to download and install the binaries to `/usr/local/bin`)
-
-## Setup
 
 ### Manually
 
@@ -42,15 +23,7 @@ The scripts in `scripts/` loosely match the setup steps in KTHW by
 Hightower and can be used as reference and/or to save typing. See
 `scripts/setup` also.
 
-### Single script
 
-```
-vagrant destroy -f   # remove previous setup
-./scripts/setup      # takes about 5 minutes or more
-[...]
-```
-
-If everything looks good, continue with ["Using the cluster"](#using-the-cluster)
 
 ### Multiple scripts
 
