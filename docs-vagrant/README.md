@@ -5,26 +5,6 @@
 ## Setup  Manually
 
 
-### Manually
-
-To learn Kubernetes from the bottom up, it's recommended to go through
-KTHW manually. `vagrant up` gives you three controller and three worker
-nodes to do that.
-
-The `pod-cidr` is `10.2${i}.0.0/16`, for which the Vagrant nodes have
-configured routes (see `route -n`).
-
-The following KTHW parts can/should be skipped:
-
-* Everything in regard to the frontend loadbalancer
-* Pod network rules are automatically setup via Vagrant
-
-The scripts in `scripts/` loosely match the setup steps in KTHW by
-Hightower and can be used as reference and/or to save typing. See
-`scripts/setup` also.
-
-
-
 ### Multiple scripts
 
 Remove previously created certificates, tools kubeconfig files:
