@@ -181,8 +181,7 @@ Contributions are welcome: KTHW Vagrant is meant to be a learning
 project and testbed for aspiring Kubernetes operators and CKAs
 ([Certified Kubernetes Administrator](https://www.cncf.io/certification/cka/)).
 
-If you want to contribute code or updates, look for the label
-[good first issue](https://github.com/kinvolk/kubernetes-the-hard-way-vagrant/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22).
+
 
 ## Pitfalls
 
