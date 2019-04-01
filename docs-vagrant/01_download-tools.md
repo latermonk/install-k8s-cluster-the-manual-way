@@ -42,7 +42,7 @@ tar -xf "etcd-${etcd_version}-linux-amd64.tar.gz"
 
 ```
 
-##  下载runc
+##  下载 cni-plugins &&  runc && crio
 ```
 
 curl -sSL \
