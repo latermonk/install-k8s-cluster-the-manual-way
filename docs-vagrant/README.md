@@ -175,17 +175,3 @@ curl nginx.kthw
 [...]
 ```
 
-## Contributing
-
-Contributions are welcome: KTHW Vagrant is meant to be a learning
-project and testbed for aspiring Kubernetes operators and CKAs
-([Certified Kubernetes Administrator](https://www.cncf.io/certification/cka/)).
-
-
-
-## Pitfalls
-
-### Error loading config file "/var/log": read /var/log: is a directory
-
-On OSX, `KUBECONFIG` apparently needs to be set explicitly. `~/.kube/config`
-is a good place and the default on Linux.
